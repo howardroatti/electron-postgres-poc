@@ -1,0 +1,22 @@
+{
+  "name": "electron-postgres-poc",
+  "version": "1.0.0",
+  "main": "src/js/main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@faker-js/faker": "^9.9.0",
+    "dotenv": "^17.0.1",
+    "electron": "^37.2.0",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "electron-reloader": "^1.2.3"
+  }
+}
